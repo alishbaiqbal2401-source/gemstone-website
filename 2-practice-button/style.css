@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+
+html{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+
+body{
+        background-color: #019FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        height: 400px;
+        width: 300px;
+}
+
+#cal {
+    display: flex;
+    background-color: white;
+    border-radius: 2%;
+    height: 300px;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly; 
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.input {
+    background-color: #F7F7F7;
+    height: 40px;
+    width: 180px;
+    border-radius: 5%;
+    border: 1px solid gainsboro;
+}
+
+.but-yellow{
+    display: flex;
+    background-color: #FFD166;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none
+}
+
+.but-blue{
+    display: flex;
+    background-color: #BBDEFB;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none
+}
+
+.but-red{
+    display: flex;
+    background-color: #F55C47;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none
+}
+
+.but-equal{
+    display: flex;
+    background-color: #0AD6A0;
+    border-radius: 10%;
+    height: 40px;
+    width: 85px;
+    align-items: center;
+    justify-content: center;
+    border: none
+}
